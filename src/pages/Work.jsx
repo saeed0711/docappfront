@@ -3,7 +3,7 @@
 import React  from 'react'
 import { useState } from "react"
 import delet from "../assets/delete.png"
-import"../css/work.css"
+import"../css/Work.css"
 export default function Work() {
 
     // const [content, setContent] = useState(null); // State to track dynamic content
