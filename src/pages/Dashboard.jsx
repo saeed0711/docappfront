@@ -401,6 +401,7 @@ export default function Dashboard() {
             width: "150px",
           alignContent:"center",
             }}
+           onClick={()=>naviget("/toggle")
         >
           <img style={{
             position:"absolute",
