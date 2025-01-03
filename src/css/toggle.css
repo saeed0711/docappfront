@@ -1,0 +1,191 @@
+/* Container */
+.container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1e1e2f;
+    color: #fff;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #18181b;
+    border-bottom: 1px solid #444;
+  }
+  
+  .form-name-input {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #000;
+    background-color: #37373E;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .two-button {
+    display: flex;
+    gap: 10px;
+  }
+   .button{
+    padding: 8px 12px;
+    font-size: 14px;
+    
+   
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+   }
+ .button.first{
+  border: 2px solid #7EA6FF;
+  color: #7EA6FF;
+  border-radius: 8px;
+ }
+ 
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .theme-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .theme-button.active {
+    background-color: #444;
+  }
+  
+  .save-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  .share-button{
+    
+      padding: 8px 12px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      background-color: #848890;
+      color: #fff;
+      cursor: pointer;
+    
+  }
+  
+  /* Main Content */
+  .main-content {
+    display: flex;
+    /* flex-direction: row; */
+    flex: 1;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 20%;
+    background-color: #18181B;
+    padding: 20px;
+  }
+
+  
+  .sidebar h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+  }
+  
+  .sidebar-button {
+    /* display: block; */
+    /* display: grid;
+    grid-template-columns: 1fr auto; */
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .sidebar img{
+    margin-right: 8px;
+    margin-bottom: -2px;
+   
+  }
+  .sidebar-button:hover {
+    background-color: #555;
+  }
+  
+  /* Flow Area */
+  .flow-area {
+    flex: 1;
+    /* display: flex; */
+    justify-content: center;
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* align-items: center; */
+    background-color: #1F1F23;
+  }
+  
+  .start-block {
+    
+    font-size: 25px;
+    width: 309px;
+    height: 70px;
+    margin-top: 13px;
+    background-color: #18181B;
+    border-radius: 5px;
+    margin-left: 200px;
+    /* text-align: start; */
+    /* justify-content: center; */
+   
+  }
+  .start-block img{
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  .start-block span{
+    padding-left: 20px;
+    
+   
+  }
+
+  .overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:18rem;
+    height:5rem;
+    border:solid 2px #282c34;
+    border-radius:.4rem;
+    padding:1rem ;
+    margin-left: 200px;
+    margin-top: 10px;
+    /* position: absolute; */
+    background-color: #18181B;
+    z-index: 1;
+    /* flex-direction: "column",
+    width: "20rem",
+    height: "8rem",
+    border: "solid 2px #282c34",
+    borderRadius: ".4rem",
+    padding: "1rem",
+    position: "absolute",
+    backgroundColor: "#000",
+   zIndex: "1" */
+}
