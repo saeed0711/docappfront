@@ -9,7 +9,7 @@ import str from "../assets/formelement/str.png"
 import btn from "../assets/formelement/btn.png"
 import im from "../assets/formelement/im.png"
 import date from "../assets/formelement/date.png"
-import vector from "../assets/formelement/vector.png"
+import vector from "../assets/formelement/Vector.png"
 import delet from "../assets/delete.png"
 
 
