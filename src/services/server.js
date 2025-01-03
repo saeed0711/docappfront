@@ -1,6 +1,6 @@
-// const URL='https://docapp-t2wv.onrender.com'
+const URL='https://docappback.onrender.com'
 
-const URL = 'http://localhost:4000'
+// const URL = 'http://localhost:4000'
 
 // export const register = (data) => {
 //     return fetch(`${URL}/user/register`, {
